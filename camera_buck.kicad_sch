@@ -1840,7 +1840,7 @@
     (property "Value" "SiC437BED-T1-GE3" (at 138.43 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SIC437BED-T1-GE3:SIC437BEDT1GE3" (at 158.75 74.93 0)
+    (property "Footprint" "fps:SiC437BEDT1GE3" (at 158.75 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/SiC437BED-T1-GE3.pdf" (at 158.75 77.47 0)
