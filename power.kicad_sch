@@ -936,7 +936,7 @@
   (symbol (lib_id "power:+3.3V") (at 161.29 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01fcc328-e73e-43dc-b2ab-acd21c5b0bd6)
-    (property "Reference" "#PWR0144" (at 161.29 33.02 0)
+    (property "Reference" "#PWR035" (at 161.29 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 161.29 25.654 0)
@@ -950,9 +950,9 @@
     )
     (pin "1" (uuid 7cdf4ed6-00ba-46ce-a304-48e5fb33a313))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -961,7 +961,7 @@
   (symbol (lib_id "iclr:LM66200DRLR") (at 46.99 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 067fcbdc-a037-45c7-a11e-fa748d280ce6)
-    (property "Reference" "U401" (at 63.5 30.641 0)
+    (property "Reference" "U3" (at 63.5 30.641 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM66200DRLR" (at 63.5 33.1779 0)
@@ -1012,9 +1012,9 @@
     (pin "7" (uuid 2826ff95-9ad9-4206-9c8a-66019c48ab44))
     (pin "8" (uuid 5fc0c83c-d5ba-486c-becb-4dfeff9996e6))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "U401") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1023,7 +1023,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0870865b-0b96-41ff-bd58-be45e025f47e)
-    (property "Reference" "TP405" (at 181.61 46.99 0)
+    (property "Reference" "TP9" (at 181.61 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 181.61 49.5269 0)
@@ -1037,9 +1037,9 @@
     )
     (pin "1" (uuid 24e58f77-95c6-40c0-9248-343ffdaa6bdc))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "TP405") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -1048,7 +1048,7 @@
   (symbol (lib_id "Device:R_Small") (at 125.73 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a4b1e49-b2d0-4006-98bb-6b145ad5a71e)
-    (property "Reference" "R402" (at 120.65 66.04 0)
+    (property "Reference" "R17" (at 120.65 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "14k" (at 120.65 68.5769 0)
@@ -1063,9 +1063,9 @@
     (pin "1" (uuid 90a13044-e550-43a5-a130-a0233e0304d3))
     (pin "2" (uuid c26a6974-7142-4fc6-b347-8dd9733c47dd))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "R402") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1074,7 +1074,7 @@
   (symbol (lib_id "Device:C_Small") (at 257.81 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1056b828-2aea-4271-b8c6-627303237fb2)
-    (property "Reference" "C408" (at 260.7683 53.9154 0)
+    (property "Reference" "C26" (at 260.7683 53.9154 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1uF" (at 260.7683 56.4554 0)
@@ -1089,9 +1089,9 @@
     (pin "1" (uuid 811d120f-b1b3-407d-8f9c-95cc52f092e1))
     (pin "2" (uuid 10a5749b-ea11-4c40-b878-5e16f219e60a))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "C408") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1100,7 +1100,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 147.32 29.21 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 191a622e-bbb5-4124-b7c1-abd7ab78da85)
-    (property "Reference" "TP402" (at 146.05 31.75 90)
+    (property "Reference" "TP6" (at 146.05 31.75 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 146.05 34.2869 90)
@@ -1114,9 +1114,9 @@
     )
     (pin "1" (uuid cdf1a1d2-2fec-47e6-a058-f1ef4c1967da))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "TP402") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -1125,7 +1125,7 @@
   (symbol (lib_id "power:VBUS") (at 191.77 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1aed480d-632a-46cd-8a88-18039e9b8e94)
-    (property "Reference" "#PWR0178" (at 191.77 44.45 0)
+    (property "Reference" "#PWR038" (at 191.77 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 191.77 36.83 0)
@@ -1139,9 +1139,9 @@
     )
     (pin "1" (uuid f3894a1c-3b8c-4d72-9b64-643987d8b954))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0178") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1150,7 +1150,7 @@
   (symbol (lib_id "Device:C_Small") (at 184.15 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ba472dc-82f1-494b-93be-f4a7d3a53013)
-    (property "Reference" "C405" (at 186.4741 53.7816 0)
+    (property "Reference" "C23" (at 186.4741 53.7816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 186.69 55.88 0)
@@ -1165,9 +1165,9 @@
     (pin "1" (uuid d3387587-e560-432a-83a0-554a1c44342f))
     (pin "2" (uuid 34008909-d15a-432e-8a83-89239de5595a))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "C405") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1176,7 +1176,7 @@
   (symbol (lib_id "power:VBUS") (at 34.29 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c623854-08d3-4713-928c-d4f4420abb63)
-    (property "Reference" "#PWR0177" (at 34.29 45.72 0)
+    (property "Reference" "#PWR039" (at 34.29 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 34.29 38.1 0)
@@ -1190,9 +1190,9 @@
     )
     (pin "1" (uuid aba9c3ce-2457-4e71-bdc1-1b9cc7957fd2))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0177") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1201,7 +1201,7 @@
   (symbol (lib_id "Device:L") (at 171.45 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1daaa7b8-83e3-44be-97b2-19fce821ff43)
-    (property "Reference" "L401" (at 172.72 60.1253 0)
+    (property "Reference" "L3" (at 172.72 60.1253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uH" (at 172.72 62.6622 0)
@@ -1216,9 +1216,9 @@
     (pin "1" (uuid d52f89a6-a217-474e-ab6b-2e4fd72edce3))
     (pin "2" (uuid 897d816f-bfb5-4bc8-9c51-b63c0a1f6524))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "L401") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -1227,7 +1227,7 @@
   (symbol (lib_id "Device:R_Small") (at 82.55 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 233da54d-2ad1-4236-97fa-24a238a57afa)
-    (property "Reference" "R401" (at 80.4811 47.5279 90)
+    (property "Reference" "R14" (at 80.4811 47.5279 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 80.4811 50.0679 90)
@@ -1242,9 +1242,9 @@
     (pin "1" (uuid 2e98db93-b588-48ac-af37-f22f1eeff613))
     (pin "2" (uuid 800a0b3c-3cb7-4d2d-9dd9-d6fb0311840e))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "R401") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1253,7 +1253,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 123.19 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 268b5def-07ff-4842-bca3-d3886d833ee9)
-    (property "Reference" "TP401" (at 121.92 45.72 0)
+    (property "Reference" "TP10" (at 121.92 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 121.92 43.1831 0)
@@ -1267,9 +1267,9 @@
     )
     (pin "1" (uuid 95b4cc13-de75-4a01-8f4e-159ea6000653))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "TP401") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -1278,7 +1278,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28e1f9c2-2a3d-4c7c-bc73-f83b8d1538c8)
-    (property "Reference" "R404" (at 242.044 64.0197 0)
+    (property "Reference" "R16" (at 242.044 64.0197 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 242.044 66.5597 0)
@@ -1293,9 +1293,9 @@
     (pin "1" (uuid ebab3158-d028-4d5a-af97-c3406c96f4c3))
     (pin "2" (uuid 9a09eb65-e43b-4bb2-b499-7ae51152133f))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "R404") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1304,7 +1304,7 @@
   (symbol (lib_id "power:GND") (at 186.69 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4cfe7de4-d9cf-4262-a8c0-423ce6aa3c30)
-    (property "Reference" "#PWR0142" (at 186.69 63.5 0)
+    (property "Reference" "#PWR045" (at 186.69 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 60.96 0)
@@ -1318,9 +1318,9 @@
     )
     (pin "1" (uuid 353c51ff-aa40-40de-a07a-ab2fe892f9a4))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -1329,7 +1329,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 567bb23c-f67b-4294-974e-5782f02ee6b1)
-    (property "Reference" "C402" (at 120.65 54.61 0)
+    (property "Reference" "C21" (at 120.65 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 120.65 57.1469 0)
@@ -1344,9 +1344,9 @@
     (pin "1" (uuid 02307af5-118f-4115-bf70-d37b47c6c8ec))
     (pin "2" (uuid 5e7983e5-619c-4f45-a182-885b2abb3f89))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "C402") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -1355,7 +1355,7 @@
   (symbol (lib_id "power:GND") (at 101.6 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cc37a1d-271b-4ac9-be2a-c7b7299ba177)
-    (property "Reference" "#PWR0135" (at 101.6 63.5 0)
+    (property "Reference" "#PWR043" (at 101.6 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 60.96 0)
@@ -1369,9 +1369,9 @@
     )
     (pin "1" (uuid 76ca7ec7-a025-4bfa-b830-dea75a65a25d))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1380,7 +1380,7 @@
   (symbol (lib_id "power:+3.3V") (at 255.27 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6611b3f5-efb7-4d62-a2a4-cef7043315bc)
-    (property "Reference" "#PWR0141" (at 255.27 55.88 0)
+    (property "Reference" "#PWR042" (at 255.27 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 255.27 48.514 0)
@@ -1394,9 +1394,9 @@
     )
     (pin "1" (uuid 84153a8b-20be-4209-9489-525bfb67f49a))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1405,7 +1405,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 191.77 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b63f8e0-062c-443a-b458-4bc92c46512c)
-    (property "Reference" "TP404" (at 185.42 40.64 0)
+    (property "Reference" "TP8" (at 185.42 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 190.5 43.1769 0)
@@ -1419,9 +1419,9 @@
     )
     (pin "1" (uuid 813c74e9-b7ba-4329-b429-e281baff9143))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "TP404") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -1430,7 +1430,7 @@
   (symbol (lib_id "power:GND") (at 255.27 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bbd9af4-0f09-48e9-8b94-03eed7a05e8b)
-    (property "Reference" "#PWR0127" (at 255.27 63.5 0)
+    (property "Reference" "#PWR046" (at 255.27 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 60.96 0)
@@ -1444,9 +1444,9 @@
     )
     (pin "1" (uuid fd8f6f74-1802-4f5b-b3b3-62338dfb6ef0))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -1455,7 +1455,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 34.29 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73fb1f5b-b93c-4916-bc0d-6ea576deabe6)
-    (property "Reference" "#FLG0103" (at 34.29 43.815 0)
+    (property "Reference" "#FLG04" (at 34.29 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 34.29 46.99 0)
@@ -1469,9 +1469,9 @@
     )
     (pin "1" (uuid f80a28a3-b975-4307-bb3f-7c920f98c194))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#FLG0103") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -1480,7 +1480,7 @@
   (symbol (lib_id "power:GND") (at 218.44 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78563d1d-3aa6-4b82-bf59-bbde4d99348a)
-    (property "Reference" "#PWR0129" (at 218.44 73.66 0)
+    (property "Reference" "#PWR047" (at 218.44 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.44 71.12 0)
@@ -1494,9 +1494,9 @@
     )
     (pin "1" (uuid 8d012bab-7e9c-47c3-ac2c-ea1e971c4780))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1505,7 +1505,7 @@
   (symbol (lib_id "Device:C_Small") (at 252.73 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79fd8204-b316-4dfe-b28b-6ca3e0915704)
-    (property "Reference" "C407" (at 246.38 54.61 0)
+    (property "Reference" "C25" (at 246.38 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 246.38 57.15 0)
@@ -1520,9 +1520,9 @@
     (pin "1" (uuid 0ce1dea7-ab94-4d84-ac82-cbb11fbfac3e))
     (pin "2" (uuid ddfa016f-2ca3-4b5d-938f-ed02d7d3a17f))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "C407") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -1531,7 +1531,7 @@
   (symbol (lib_id "power:GND") (at 128.27 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7af19544-550c-41e8-b1a1-e003ac8266b0)
-    (property "Reference" "#PWR0130" (at 128.27 63.5 0)
+    (property "Reference" "#PWR044" (at 128.27 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 60.96 0)
@@ -1545,9 +1545,9 @@
     )
     (pin "1" (uuid c4ec5152-6266-494e-8268-518afa47370a))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -1556,7 +1556,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 161.29 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ed4ea5d-2ecf-42be-88a1-8b4cc9b70ab6)
-    (property "Reference" "TP403" (at 166.37 26.67 90)
+    (property "Reference" "TP7" (at 166.37 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 169.291 28.7716 90)
@@ -1570,9 +1570,9 @@
     )
     (pin "1" (uuid 75466359-e8b7-4a6d-b8dc-138ac89c6a4a))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "TP403") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -1581,7 +1581,7 @@
   (symbol (lib_id "iclr:RT9025-25GSP") (at 218.44 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e7b437a-d568-4634-a4ca-9ab4da60fc54)
-    (property "Reference" "U403" (at 218.44 45.9572 0)
+    (property "Reference" "U4" (at 218.44 45.9572 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SC4215" (at 218.44 48.4941 0)
@@ -1602,9 +1602,9 @@
     (pin "8" (uuid ee5bc809-5263-433a-9b5c-ed0b0a95c342))
     (pin "9" (uuid 42332776-9aea-4066-a3f9-273d836ce5ba))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "U403") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1613,7 +1613,7 @@
   (symbol (lib_id "Device:C_Small") (at 101.6 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97cf4907-5a79-45d6-b64e-3fdf38d7790f)
-    (property "Reference" "C401" (at 103.9241 53.7816 0)
+    (property "Reference" "C20" (at 103.9241 53.7816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 103.9241 56.3185 0)
@@ -1628,9 +1628,9 @@
     (pin "1" (uuid d3775655-5351-4a4e-b16b-f61da0b1b33d))
     (pin "2" (uuid 59264173-6555-4007-9d14-2301c2edd2b0))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "C401") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -1639,7 +1639,7 @@
   (symbol (lib_id "iclr:MAX77827AEFD+T") (at 151.13 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e553dc0-c0ec-45f7-ad87-8ecb647a8da4)
-    (property "Reference" "U402" (at 151.13 45.8302 0)
+    (property "Reference" "U5" (at 151.13 45.8302 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MAX77827AEFD+T" (at 151.13 48.3671 0)
@@ -1676,9 +1676,9 @@
     (pin "8" (uuid d0db84d9-c8d2-499e-92da-8d1a38eebd7a))
     (pin "9" (uuid b5ec3d24-44e8-479f-bac0-cbb4bfb9f36d))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "U402") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1687,7 +1687,7 @@
   (symbol (lib_id "power:VBUS") (at 86.36 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0436a39-d2dd-4bfd-9d5f-31d8848f61c7)
-    (property "Reference" "#PWR0176" (at 86.36 55.88 0)
+    (property "Reference" "#PWR041" (at 86.36 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 86.36 48.26 0)
@@ -1701,9 +1701,9 @@
     )
     (pin "1" (uuid f500cb07-576c-4fa8-bf05-0ef8d9d9e596))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0176") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1712,7 +1712,7 @@
   (symbol (lib_id "power:GND") (at 240.03 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a70548c1-203c-4454-863e-b16fb9e9870f)
-    (property "Reference" "#PWR0128" (at 240.03 73.66 0)
+    (property "Reference" "#PWR048" (at 240.03 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 71.12 0)
@@ -1726,9 +1726,9 @@
     )
     (pin "1" (uuid edb7f988-5f18-4952-89f0-f7568a59ca73))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -1737,7 +1737,7 @@
   (symbol (lib_id "power:GND") (at 166.37 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8a64c12-e727-42fe-84c9-147f489b1a0a)
-    (property "Reference" "#PWR0140" (at 166.37 81.28 0)
+    (property "Reference" "#PWR049" (at 166.37 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 78.74 0)
@@ -1751,9 +1751,9 @@
     )
     (pin "1" (uuid c5a74700-a75c-427c-bba2-935d41215c92))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1762,7 +1762,7 @@
   (symbol (lib_id "power:GND") (at 25.4 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac261603-5336-4692-858c-6a924eba379b)
-    (property "Reference" "#PWR0133" (at 25.4 43.18 0)
+    (property "Reference" "#PWR036" (at 25.4 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 25.4 40.64 0)
@@ -1776,9 +1776,9 @@
     )
     (pin "1" (uuid 7222144b-bb37-4ff5-af64-15b27f61dd19))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1787,7 +1787,7 @@
   (symbol (lib_id "Device:C_Small") (at 194.31 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6a292c1-c238-45b6-bc8e-5ffbaeabdf69)
-    (property "Reference" "C406" (at 196.0936 54.1168 0)
+    (property "Reference" "C24" (at 196.0936 54.1168 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 196.3095 56.2152 0)
@@ -1802,9 +1802,9 @@
     (pin "1" (uuid 22b4feea-685c-4300-be27-60926b3aab8c))
     (pin "2" (uuid 6cc2df0f-5ed8-46a0-910a-ff9ab6a9d9da))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "C406") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1813,7 +1813,7 @@
   (symbol (lib_id "Device:C_Small") (at 179.07 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c336c539-b496-4389-acf2-e37d7fc4929b)
-    (property "Reference" "C404" (at 172.72 53.3431 0)
+    (property "Reference" "C22" (at 172.72 53.3431 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 172.72 55.88 0)
@@ -1828,9 +1828,9 @@
     (pin "1" (uuid e4cc81b2-5a8a-4f7d-a7f9-f88506466d95))
     (pin "2" (uuid 55939b68-4c8f-498e-995c-5ceed00a2537))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "C404") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1839,7 +1839,7 @@
   (symbol (lib_id "power:GND") (at 46.99 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3e831e4-9581-4b86-9489-38377c33d701)
-    (property "Reference" "#PWR0139" (at 46.99 50.8 0)
+    (property "Reference" "#PWR040" (at 46.99 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 48.26 0)
@@ -1853,9 +1853,9 @@
     )
     (pin "1" (uuid db7fadd0-3fc3-431f-960a-35665ef659a4))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1864,7 +1864,7 @@
   (symbol (lib_id "Device:R_Small") (at 240.03 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c558dd18-30d2-4fa8-8315-af26fe3c484f)
-    (property "Reference" "R403" (at 241.7867 54.6505 0)
+    (property "Reference" "R15" (at 241.7867 54.6505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "56k" (at 241.7867 57.1905 0)
@@ -1879,9 +1879,9 @@
     (pin "1" (uuid bfdf93ae-8d52-4923-a9a4-4d9d20920f1b))
     (pin "2" (uuid 803f96f8-a8d0-4a08-98e0-cbe4f528f5c6))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "R403") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1890,7 +1890,7 @@
   (symbol (lib_id "power:GND") (at 104.14 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5fca73e-6969-4798-ae26-1f1d58d21710)
-    (property "Reference" "#PWR0137" (at 104.14 43.18 0)
+    (property "Reference" "#PWR037" (at 104.14 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 40.64 0)
@@ -1904,9 +1904,9 @@
     )
     (pin "1" (uuid 1fc81907-e540-4c99-93c5-0638aabde7c2))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1915,7 +1915,7 @@
   (symbol (lib_id "Device:C_Small") (at 132.08 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6557850-f881-4252-96a2-8cf25a1d90fd)
-    (property "Reference" "C403" (at 134.4041 69.0216 0)
+    (property "Reference" "C27" (at 134.4041 69.0216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 134.4041 71.5585 0)
@@ -1930,9 +1930,9 @@
     (pin "1" (uuid c5de80ec-fe2b-40ae-8a15-4d28cf3e3767))
     (pin "2" (uuid 7ecd9bc5-e216-431b-85b7-45857930e63e))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "C403") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1941,7 +1941,7 @@
   (symbol (lib_id "power:GND") (at 158.75 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e48b03d7-507a-49e6-8f1d-dc61aa61954a)
-    (property "Reference" "#PWR0146" (at 158.75 125.73 0)
+    (property "Reference" "#PWR050" (at 158.75 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 123.19 0)
@@ -1955,9 +1955,9 @@
     )
     (pin "1" (uuid b5441a47-c3f4-4485-8fd1-6cd8ea0a9ccf))
     (instances
-      (project "RicardoCamera"
+      (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
