@@ -1036,7 +1036,6 @@
     )
   )
 
-
   (junction (at 39.37 21.59) (diameter 0) (color 0 0 0 0)
     (uuid 02f8904b-a7b2-49dd-b392-764e7e29fb51)
   )
@@ -2287,8 +2286,8 @@
     (property "Datasheet" "~" (at 54.61 21.59 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 62dd6e14-300c-40ae-a607-42cb19c587ac))
-    (pin "2" (uuid f20b6a3e-ae65-4447-a086-d14e20656445))
+    (pin "1" (uuid 64bfecde-d267-4842-a0e7-16fe0807dfd3))
+    (pin "2" (uuid b8945043-bf7b-46bf-8a79-66ce289d1992))
     (instances
       (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
@@ -3004,8 +3003,8 @@
     (property "Datasheet" "~" (at 62.23 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 418da76b-0ccb-4adf-a84e-780b5930e1e0))
-    (pin "2" (uuid d430cb9e-64ce-44de-bddd-01ebc6600cec))
+    (pin "1" (uuid b27a7691-d842-4ae2-bf05-9771157bd76f))
+    (pin "2" (uuid b7403d59-b5bb-4d09-9cda-4e4e82bb70c1))
     (instances
       (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
