@@ -1965,7 +1965,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 22.86 191.77 270) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 22.86 191.77 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005da70d8a)
     (property "Reference" "C14" (at 22.86 185.9534 90)
@@ -2092,7 +2092,7 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 54.61 170.18 270) (unit 1)
+  (symbol (lib_id "Device:C_Small") (at 54.61 170.18 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dab5946)
     (property "Reference" "C13" (at 54.61 164.3634 90)
