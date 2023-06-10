@@ -1484,7 +1484,7 @@
     (uuid 1d82c0ac-5737-4dcb-b295-6baef6985c8d)
   )
 
-  (wire (pts (xy 72.39 26.67) (xy 78.74 26.67))
+  (wire (pts (xy 57.15 26.67) (xy 78.74 26.67))
     (stroke (width 0) (type default))
     (uuid 1eb33bdc-f9d9-4a39-a1df-61c4562ee866)
   )
@@ -1804,10 +1804,6 @@
   (wire (pts (xy 43.18 36.83) (xy 64.77 36.83))
     (stroke (width 0) (type default))
     (uuid 7c0b69b0-ddcc-4d6c-b10a-c139dbfb08d9)
-  )
-  (wire (pts (xy 57.15 26.67) (xy 64.77 26.67))
-    (stroke (width 0) (type default))
-    (uuid 7d665caf-30cd-4fa9-bf44-ab7c38052e97)
   )
   (polyline (pts (xy 130.81 161.29) (xy 130.81 184.15))
     (stroke (width 0) (type default))
@@ -4352,32 +4348,6 @@
       (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/90cb145e-dae6-40dc-8720-fcf8047ab530"
           (reference "J5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 68.58 26.67 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d864614e-6b42-4aa3-bde9-b201fc3871ef)
-    (property "Reference" "R26" (at 72.39 24.13 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 68.58 24.13 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 68.58 28.448 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 68.58 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5f2ea201-ad34-4e4c-bf26-f64137b2c081))
-    (pin "2" (uuid 1ede4e2a-94ab-4da6-a6da-d2bd465d50a9))
-    (instances
-      (project "RicardoCHEESE"
-        (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/90cb145e-dae6-40dc-8720-fcf8047ab530"
-          (reference "R26") (unit 1)
         )
       )
     )
