@@ -675,6 +675,10 @@
     (stroke (width 0) (type default))
     (uuid 122b2869-b8ec-4c49-ab98-3e0d5323bb2d)
   )
+  (wire (pts (xy 153.67 119.38) (xy 158.75 119.38))
+    (stroke (width 0) (type default))
+    (uuid 1780dcd0-e226-49db-874c-06eb523eb612)
+  )
   (wire (pts (xy 179.07 52.07) (xy 184.15 52.07))
     (stroke (width 0) (type default))
     (uuid 18562939-7ae5-4144-9840-599fb6adc5e9)
@@ -800,10 +804,6 @@
     (uuid 9f46b781-ea4a-4e83-9037-a4f56c170db1)
   )
 
-  (wire (pts (xy 153.67 119.38) (xy 158.75 119.38))
-    (stroke (width 0) (type default))
-    (uuid a88f867b-5b76-4679-864a-ca83d6af997b)
-  )
   (wire (pts (xy 128.27 52.07) (xy 133.35 52.07))
     (stroke (width 0) (type default))
     (uuid acdfba8e-0438-4355-babd-7f18f0a9d336)
@@ -1572,7 +1572,7 @@
     (property "Datasheet" "~" (at 161.29 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75466359-e8b7-4a6d-b8dc-138ac89c6a4a))
+    (pin "1" (uuid 4ea1e010-0e29-4cd0-872e-e03bae2b9a94))
     (instances
       (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
