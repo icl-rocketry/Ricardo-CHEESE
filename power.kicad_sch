@@ -365,7 +365,7 @@
       (property "Value" "SC4215" (at 0 2.3059 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "fps:SOIC127P599X175-8N" (at 0 5.08 0)
+      (property "Footprint" "iclr:SOIC127P599X175-9N" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 5.08 0)
@@ -407,6 +407,10 @@
         (pin input line (at 0 -16.51 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -16.51 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1609,6 +1613,7 @@
     (pin "6" (uuid d366fdd1-355e-4c16-8e98-ca31cf5806e9))
     (pin "7" (uuid 52520f22-1121-4b65-9754-c7b44c54c66c))
     (pin "8" (uuid ee5bc809-5263-433a-9b5c-ed0b0a95c342))
+    (pin "9" (uuid 7289a9f8-e11b-4cff-8f42-fa4023b09d38))
     (instances
       (project "RicardoCHEESE"
         (path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
