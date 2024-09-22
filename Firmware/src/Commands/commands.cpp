@@ -11,8 +11,6 @@
 
 #include "commands.h"
 
-#include "packets/ChadTelemPacket.h"
-
 #include <librnp/rnp_packet.h>
 #include <libriccore/commands/commandhandler.h>
 
